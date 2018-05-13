@@ -1,1 +1,1 @@
-# This is the course materials from the udemy course Complete Python PostgreSQL
+# These are the course materials from the udemy course "Complete Python PostgreSQL"
