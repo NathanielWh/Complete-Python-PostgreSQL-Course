@@ -1,0 +1,34 @@
+/*
+SELECT customers.first_name, customers.last_name, COUNT(purchases.id) AS purchase_count
+FROM customers
+INNER JOIN purchases ON customers.id = purchases.customer_id
+GROUP BY customers.id;
+*/
+
+/*
+SELECT AVG(items.price) FROM items
+INNER JOIN purchases ON items.id = purchases.item_id;
+*/
+
+/*
+SELECT MAX(items.price) FROM items
+INNER JOIN purchases ON items.id = purchases.item_id
+;
+*/
+
+SELECT customers.first_name, customers.last_name, COUNT(purchases.id) AS purchase_count
+FROM customers
+INNER JOIN purchases ON customers.id = purchases.customer_id
+GROUP BY customers.id
+HAVING COUNT(purchases.id) > 3;
+
+
+
+
+
+
+
+
+
+
+

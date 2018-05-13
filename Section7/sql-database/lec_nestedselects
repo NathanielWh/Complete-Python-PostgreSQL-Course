@@ -1,0 +1,23 @@
+/*
+SELECT * FROM items WHERE price > 
+(SELECT AVG(items.price) FROM items);
+*/
+/*
+SELECT items.name, items.price - (SELECT AVG(items.price) FROM items) FROM items;
+*/
+/*
+CREATE VIEW expensive_items_diff AS
+SELECT *, items.price -
+(SELECT AVG(items.price) FROM items WHERE price > 100)
+FROM items WHERE price > 100;
+*/
+
+SELECT * FROM expensive_items_diff
+
+
+
+
+
+
+
+

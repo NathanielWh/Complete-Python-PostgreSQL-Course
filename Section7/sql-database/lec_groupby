@@ -1,0 +1,11 @@
+/* SELECT customers.first_name, customers.last_name, COUNT(purchases.id) FROM customers LEFT JOIN purchases ON customers.id = purchases.customer_id
+GROUP BY customers.id; */
+
+SELECT customers.first_name, customers.last_name, SUM(items.price) FROM items
+INNER JOIN purchases ON items.id = purchases.item_id
+INNER JOIN customers on purchases.customer_id = customers.id
+GROUP BY customers.id;
+
+
+;
+

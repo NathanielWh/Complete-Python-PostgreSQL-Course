@@ -1,0 +1,9 @@
+SELECT * FROM customers WHERE last_name LIKE '%t%';
+
+/*
+% is like asterix, ANYTHING
+_ is only a single character
+
+
+*/
+

@@ -1,0 +1,10 @@
+SELECT customers.first_name AS "First name", customers.last_name AS "Last name" FROM customers
+
+LIMIT 2
+
+
+/*
+WHERE customers.first_name = 'Rolf' OR customers.last_name = 'Watson'
+*/
+;
+

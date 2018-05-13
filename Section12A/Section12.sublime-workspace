@@ -1,0 +1,1174 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"first",
+				"firstword"
+			],
+			[
+				"carm",
+				"carmake1"
+			],
+			[
+				"N",
+				"NUMROWS"
+			],
+			[
+				"tra",
+				"travel_ptr"
+			],
+			[
+				"int",
+				"int_item1"
+			],
+			[
+				"car",
+				"carmake3"
+			],
+			[
+				"ca",
+				"carmake2"
+			],
+			[
+				"carmak",
+				"carmake2"
+			],
+			[
+				"char",
+				"chartolookfor"
+			],
+			[
+				"meas",
+				"meas_total"
+			],
+			[
+				"Num",
+				"NUMCOLS"
+			],
+			[
+				"NUM",
+				"NUMROWS"
+			],
+			[
+				"was",
+				"washers_on_hand"
+			],
+			[
+				"in",
+				"int_pointer"
+			],
+			[
+				"M",
+				"MAXPRICE"
+			],
+			[
+				"s",
+				"sell_price"
+			],
+			[
+				"coin",
+				"coin_insert"
+			],
+			[
+				"sel",
+				"sell_price"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"base",
+				"baseDigits"
+			],
+			[
+				"converted",
+				"convertedNumber"
+			],
+			[
+				"p",
+				"printf\tprintf …"
+			],
+			[
+				"pr",
+				"primeIndex"
+			],
+			[
+				"m",
+				"manbearpig"
+			],
+			[
+				"la",
+				"labelPtr"
+			],
+			[
+				"the",
+				"the_word"
+			],
+			[
+				"word_l",
+				"word_len"
+			],
+			[
+				"word",
+				"word_list"
+			],
+			[
+				"wo",
+				"word_list"
+			],
+			[
+				"c",
+				"comp_result"
+			],
+			[
+				"seco",
+				"second_word"
+			],
+			[
+				"firs",
+				"first_word"
+			],
+			[
+				"srt",
+				"string"
+			],
+			[
+				"strin",
+				"string_buffer"
+			],
+			[
+				"cho",
+				"chosen_col"
+			],
+			[
+				"num",
+				"num_cols"
+			],
+			[
+				"num_",
+				"num_rows"
+			],
+			[
+				"prin",
+				"print_array"
+			],
+			[
+				"pt_",
+				"pt_array"
+			],
+			[
+				"pt",
+				"pt_array"
+			],
+			[
+				"swa",
+				"swap_first_two"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"tex",
+				"text-rendering"
+			],
+			[
+				"li",
+				"li\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"your",
+				"your_name"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"o",
+				"ol\tTag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"e",
+				"em\tTag"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"fo",
+				"formattedSkill"
+			],
+			[
+				"wel",
+				"welcome_message"
+			],
+			[
+				"bor",
+				"border-box"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "import pandas\n\n\nclass Leg:\n    pass\n\n\nclass Back:\n    pass\n\n\nclass Chair:\n    def __init__(self, num_legs):\n        self.legs = [Leg() for leg in range(num_legs)]\n        self.back = Back()\n\n    def __repr__(self):\n        return \"I have {} legs and one back.\".format(len(self.legs))\n\n\nprint(Chair(6))\n\n\n\n\n\n",
+			"file": "oop/composition.py",
+			"file_size": 302,
+			"file_write_time": 131706387100000000,
+			"settings":
+			{
+				"buffer_size": 307,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Python 3.5.0 (v3.5.0:374f501f4567, Sep 12 2015, 11:00:19) \n[GCC 4.2.1 (Apple Inc. build 5666) (dot 3)] on darwin\nType \"help\", \"copyright\", \"credits\" or \"license\" for more information.\n(InteractiveConsole)\n>>> sys\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\nNameError: name 'sys' is not defined\n>>> sys.path\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\nNameError: name 'sys' is not defined\n>>> import sys\n>>> sys.path\n['/Users/Nate/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/config/Python', '/Library/Frameworks/Python.framework/Versions/3.5/lib/python35.zip', '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5', '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin', '/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload', '/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/venv/lib/python3.5/site-packages', '/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/venv/lib/python3.5/site-packages/setuptools-28.8.0-py3.5.egg']\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> >>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> I have 6 legs and one back.\n>>> ",
+			"settings":
+			{
+				"buffer_size": 1779,
+				"line_ending": "Unix",
+				"name": "*REPL* [python]",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Choose Browser.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Choose Browser.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/CompileGCC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/CompileGCC.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/CompileGCC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/untitled.sublime-build",
+					""
+				],
+				[
+					"Packages/User/untitled.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/untitled.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 59.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"vir",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"virtual",
+				"Virtualenv: Activate"
+			],
+			[
+				"vi",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"Sublime",
+				"Virtualenv: SublimeREPL - Python"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimerepl:py",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ter",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Virtual",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"te",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"Snippet: ",
+				"Snippet: struct"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"t",
+				"Terminal View: Open Bash Terminal"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package R",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Controli",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12"
+	],
+	"file_history":
+	[
+		"/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/Section12.sublime-project",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/VirtualEnv.sublime-build",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/Virtualenv/Virtualenv.sublime-settings",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/Virtualenv.sublime-settings",
+		"/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/la.py",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
+		"/Users/Nate/Desktop/subtestproj/testven.sublime-project",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/test.sublime-build",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/Nate/Desktop/sublimetext.py",
+		"/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/project 2/twitter_utils.py",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/Nate/Desktop/API-Course/section4/code/app.py",
+		"/Users/Nate/Desktop/API-Course/templates/index.html",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/exam2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/exam.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll6.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll5.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/ll1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/sample.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/fileopen.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/exam5.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/exam4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/exam3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/pointers1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/test.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/linked_lists5.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/linked_lists.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/linked_lists2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/linked_lists3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/linked_lists4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/lab_linked_lists/link_lists4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/linked_lists2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/Exam_Study/linked_lists.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov30_Class/directory_permissions",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Assigment2/test.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Assigment2/assign2.c",
+		"/Users/Nate/Documents/CProg/Text/conver.c",
+		"/Users/Nate/Documents/CProg/Text/prime.c",
+		"/Users/Nate/Documents/CProg/Text/fibonacci.c",
+		"/Users/Nate/Documents/CProg/Text/array_counter.c",
+		"/Users/Nate/Documents/CProg/Text/arrays.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/helloworld.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/lab/test.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/lab/lab13.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/cmd_line/12-1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/structures/lab13-q.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/structures/Q1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/structures/struc-part1.c",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/c.sublime-snippet",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/13/strings/Q1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/test.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/f.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/Makefile",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/lab12.2.data",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/lab12.1.data",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/max_sizes.h",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/lab12/lab12a.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/Q4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/Q3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/Q2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/12/array_squares.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/pointers/pointers_test.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/pointers/pointers5.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/pointers/pointers3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/pointers/pointers2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/pointers/pointers.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/makefile",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/face.h",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/face.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/C_labs/11-B.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/9-4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/9-3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/matrix_mult.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/9-1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/Nov_16_Notes.txt",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov16_Class/Nov_16_Notes.rtf",
+		"/Users/Nate/Documents/PycharmProjects/Udemy/app.py",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Course Files/Lesson_9/3 - Final Website/css/styles.css",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Course Files/Lesson_9/3 - Final Website/index.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_9/Donut_Whole/js/modernizr.js",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov9_Class/myecho.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov9_Class/1-darray_1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov9_Class/1-darray.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Labs/Lab_11/powers.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Labs/Lab_11/powers.h",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Labs/Lab_11/power_table.c",
+		"/Users/Nate/Documents/htmlcss/phoventures/startbootstrap-clean-blog-gh-pages/index.html",
+		"/Users/Nate/Documents/htmlcss/phoventures/startbootstrap-clean-blog-gh-pages/css/clean-blog.css",
+		"/Users/Nate/Documents/htmlcss/phoventures/test/styles.css",
+		"/Users/Nate/Documents/htmlcss/phoventures/test/index.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_7/borders.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_7/background-images.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_7/styles.css",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_7/styling-forms.html",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/Terminal/Terminal.sublime-settings",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_7/text.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/text.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/dirty.css",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/index.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/styles.css",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/grouping-selectors.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/descendant-selectors.html",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/hellow.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/pointer1.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/pointer.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/notes.txt",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/functions5.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/functions4.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/functions3_2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/functions3.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/functions2.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/Functions.c",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/Glue.sublime-settings",
+		"/Users/Nate/Library/Application Support/Sublime Text 3/Packages/User/untitled.sublime-build",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/Nov2_Class/Functions",
+		"/Users/Nate/Documents/CPS 393 C Unix/midterm1/bigfiles",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/class-selectors.html",
+		"/Users/Nate/Documents/htmlcss/Udemy/WebsitefromScratch/Lesson_6/id.selectors.html",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/a.out",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/myfirstprog.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/hello.c",
+		"/Users/Nate/Documents/CPS 393 C Unix/C_Unit/class_1.c"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "oop/composition.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 307,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								286,
+								286
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1779,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1779,
+								1779
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_indent": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"default_dir": "/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/oop",
+							"detect_indentation": false,
+							"gutter": false,
+							"history_arrows": true,
+							"indent_subsequent_lines": false,
+							"line_numbers": false,
+							"repl": true,
+							"repl_external_id": "python",
+							"repl_id": "3f47072919ae42b9ac6d676f8d8e61f7",
+							"repl_restart_args":
+							{
+								"autocomplete_server": true,
+								"cmd":
+								[
+									"python",
+									"-u",
+									"${packages}/SublimeREPL/config/Python/ipy_repl.py"
+								],
+								"cwd": "$file_path",
+								"encoding": "utf8",
+								"extend_env":
+								{
+									"PATH": "/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/venv/bin:/Users/Nate/Documents/google-cloud-sdk/bin:/Users/Nate/anaconda/bin://anaconda/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/TeX/texbin",
+									"PYTHONIOENCODING": "utf-8",
+									"VIRTUAL_ENV": "/Users/Nate/Documents/Udemy/Complete-Python-PostgreSQL-Developer-Course/Section12/venv"
+								},
+								"external_id": "python",
+								"syntax": "Packages/Python/Python.tmLanguage",
+								"type": "subprocess"
+							},
+							"repl_sublime2": false,
+							"smart_indent": false,
+							"spell_check": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.582909369606,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 186.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Virtualenv/Python + Virtualenv.sublime-build",
+	"project": "Section12.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"lab_linked_lists/ll4.c"
+			],
+			[
+				"i",
+				"fileopen.c"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 228.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 2
+	}
+}

@@ -1,0 +1,25 @@
+/*
+CREATE TYPE mood AS ENUM('extremely unhappy', 'unhappy', 'ok', 'happy','extremely happy');
+*/
+/*
+CREATE TABLE students (
+name character varying(255),
+curent_mood mood
+    );
+   */
+/*
+INSERT INTO students VALUES ('Robert', 'unhappy');
+*/
+
+SELECT * FROM students WHERE curent_mood > 'ok';
+
+
+
+
+
+
+
+
+
+
+

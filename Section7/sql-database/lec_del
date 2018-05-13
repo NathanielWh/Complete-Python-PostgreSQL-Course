@@ -1,0 +1,30 @@
+/*
+SELECT * FROM public.users WHERE name='rolfsmith';
+*/
+
+/*
+CREATE INDEX users_name_index ON public.users(name);
+*/
+
+/*
+CREATE INDEX index_name ON public.movies(id, user_id)
+SELECT * FROM public.movies WHERE id=1 AND user_id=2;
+*/
+
+/*
+REINDEX INDEX users_name_index;
+*/
+
+/* cascade deletes the foreign key relationship */
+
+DROP TABLE public.users CASCADE;
+
+DROP TABLE IF EXISTS public.videos;
+
+
+
+
+
+
+
+

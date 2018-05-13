@@ -1,0 +1,91 @@
+/*
+CREATE TABLE public.users (
+
+    id integer,
+    name character varying(100) NOT NULL,
+	CONSTRAINT users_id_pkey PRIMARY KEY (id)
+
+
+)
+*/
+
+/*
+CREATE TABLE public.videos (
+
+	id integer PRIMARY KEY,
+    user_id integer REFERENCES public.users,
+    name character varying(255) NOT NULL
+)
+*/
+
+/*
+INSERT INTO public.users(id, name)
+VALUES (1, 'marysmith')
+
+specifying the columns is not necessary if the values match exactly what the data already is
+
+INSERT INTO public.users
+VALUES (2, 'rolfsmith')
+;
+*/
+
+/*
+INSERT INTO public.videos
+VALUES (1,2,'Test video');
+*/
+
+/*
+CREATE SEQUENCE users_id_seq START 3;
+*/
+
+/*
+ALTER TABLE public.users
+ALTER COLUMN id
+SET DEFAULT nextval('users_id_seq');
+*/
+
+/*
+ALTER SEQUENCE users_id_seq OWNED BY public.users.id;
+*/
+
+/*
+INSERT INTO public.users(name)
+VALUES ('josealvatierra')
+*/
+
+SELECT * FROM public.users
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

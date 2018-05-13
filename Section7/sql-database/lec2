@@ -1,0 +1,14 @@
+UPDATE items SET price = 4.00 WHERE id=3 ;
+
+SELECT * FROM items ;
+
+UPDATE items SET price=5.00 WHERE price = 4.00;
+
+SELECT * FROM items ;
+
+
+
+
+
+
+;

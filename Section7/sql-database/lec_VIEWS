@@ -1,0 +1,119 @@
+/*
+CREATE VIEW total_revenue_per_customer AS
+SELECT customers.id, first_name, last_name, SUM(items.price) FROM customers 
+INNER JOIN purchases ON customers.id = purchases.customer_id
+INNER JOIN items ON purchases.item_id = items.id
+GROUP BY customers.id;
+*/
+
+/*
+DROP VIEW total_revenue_per_customer;
+*/
+
+/* SELECT * FROM total_revenue_per_customer; */
+/*
+INSERT INTO purchases
+VALUES (11, 6, 5)
+*/
+/*
+CREATE VIEW awesome_customers AS
+SELECT * FROM total_revenue_per_customer WHERE sum > 150;
+*/
+/*
+SELECT * FROM awesome_customers ORDER BY sum DESC;
+*/
+
+/*
+CREATE VIEW expensive_items AS
+SELECT * FROM items WHERE price > 100;
+*/
+
+/*
+INSERT INTO expensive_items(id, name, price)
+VALUES (9, 'DSLR', 400.00)
+*/
+
+/*
+DROP VIEW expensive_items
+*/
+
+/*
+CREATE VIEW expensive_items AS
+SELECT * FROM items WHERE price > 100
+WITH LOCAL CHECK OPTION;
+*/
+
+/*
+INSERT INTO expensive_items(id, name, price)
+VALUES(11, 'Pencil', 2.00);
+*/
+
+/*
+DROP VIEW expensive_items
+*/
+
+/*
+CREATE VIEW expensive_items AS
+SELECT * FROM items WHERE price >= 100
+*/
+
+/*
+CREATE VIEW non_luxury_items AS
+SELECT * FROM expensive_items WHERE price < 10000
+WITH LOCAL CHECK OPTION;
+*/
+
+/*
+INSERT INTO non_luxury_items(id, name, price)
+VALUES(12, 'Pencil', 2.00);
+*/
+
+/*
+DROP VIEW non_luxury_items
+*/
+
+/*
+CREATE VIEW non_luxury_items AS
+SELECT * FROM expensive_items WHERE price < 10000
+WITH CASCADED CHECK OPTION;
+*/
+
+/*
+INSERT INTO non_luxury_items(id, name, price)
+VALUES(13, 'Pencil', 2.00);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
